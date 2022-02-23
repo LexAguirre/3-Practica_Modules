@@ -44,6 +44,10 @@ Para la especificación de ES6 de javascript se han incorporado los “template 
 - String formatting
 - String tagging for safe HTML escaping, localization and more.
 
+## EVENT LOOPS
+
+text...
+
 ## EXPLICACIÓN DEL PROCESO
 
 1. Modifica el código de las funciones greet() y logGreeting() (Fueron trabajadas en la Practica 2 (https://github.com/LexAguirre/2-Practica_Funciones.git)) Estas se refactorizaran para definir una función “Function expression created on the fly”.
@@ -74,10 +78,6 @@ Para la especificación de ES6 de javascript se han incorporado los “template 
 10. Ahora escribe "require("./greet");" en el archivo app.js en la primera linea
 
 11. Investiga sobre los event loops https://github.com/LexAguirre/3-Practica_Modules#event-loops
-
-## EVENT LOOPS
-
-text...
 
 ## FUENTES
 
