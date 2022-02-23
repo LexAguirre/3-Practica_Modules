@@ -32,7 +32,18 @@
 
 ## EXPLICACIÓN DEL PROCESO
 
-1.
+1. Modifica el código de las funciones greet() y logGreeting() (Fueron trabajadas en la Practica 2 (https://github.com/LexAguirre/2-Practica_Funciones.git)) Estas se refactorizaran para definir una función “Function expression created on the fly”.
+2. Dentro de la llamada (invoke) a “logGreeting”, en lugar de especificar una variable que contiene una función, creamos la función per se y la pasamos como parámetro.
+3. Podemos construir la interpolación de strings como: En un esquema “clásico” , la interpolación de strings en javascripts sucede de la siguiente forma:
+
+let logGreeting1 = (miNombre, miColor) => {
+console.log(
+"Hola " + miNombre + " buenos dias! Tu color favorito es el " + miColor
+);
+};
+logGreeting1("Carlos", "azul");
+
+4. Modifica
 
 ## EVENT LOOPS
 
