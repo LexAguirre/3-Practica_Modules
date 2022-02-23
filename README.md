@@ -41,7 +41,17 @@
 
 > logGreeting1("Carlos", "azul");
 
-4. Modifica
+4. Abordaremos las 3 primeras características de los template strings
+
+- String interpolation
+- Embedded expressions
+- Multiline strings
+
+5. Crear nuevo directorio “modules”
+
+6. Crear un nuevo archivo app.js
+
+7. Crear un nuevo archivo greet.js
 
 ## EVENT LOOPS
 
