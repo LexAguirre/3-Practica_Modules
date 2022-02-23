@@ -38,6 +38,7 @@
 
 > let logGreeting1 = (miNombre, miColor) => {
 > console.log("Hola " + miNombre + " buenos dias! Tu color favorito es el " + miColor);};
+
 > logGreeting1("Carlos", "azul");
 
 4. Modifica
