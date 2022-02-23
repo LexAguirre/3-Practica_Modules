@@ -14,18 +14,19 @@
 ## OBJETIVO
 
 - En la clase pasada abordamos los conceptos de
-  -- First class functions
-  -- Function expressions
-  -- Passing functions as parameters
+
+  - First class functions
+  - Function expressions
+  - Passing functions as parameters
 
 - Los conceptos que quedan pendientes son:
-  -- Functions created on the fly
-  -- Interpolación de strings
-  ---- String interpolation
-  ---- Embedded expressions
-  ---- Multiline strings
-  -- Javascript Modules
-  -- Event loop
+  - Functions created on the fly
+  - Interpolación de strings
+    - String interpolation
+    - Embedded expressions
+    - Multiline strings
+  - Javascript Modules
+  - Event loop
 
 > ENTREGA: DOMINGO 27 DE FEBRERO DEL 2022
 
