@@ -46,7 +46,15 @@ Para la especificación de ES6 de javascript se han incorporado los “template 
 
 ## EVENT LOOPS
 
-text...
+Un hilo llama a un call stack y corre un pedazo de código a la vez el cual
+
+Un call stack se encarga de la organización de la ejecución del código, y se encarga de matar un proceso si es que se repite de manera indefinida.
+
+El call stack adquiere un gran problema cuando corre en un navegador por ser de proceso único por lo que tiene que esperar a que un proceso termine para poder continuar con el otro haciendo que no sea optimo.
+
+El evento loop se encarga de revisar el stack y si este vacío toma la primera acción que está en el callback queue y lo ingresa al stack para que lo corra.
+
+Un callback puede ser cualquier función que manden a llamar o podra ser cualquier callback asíncrono
 
 ## EXPLICACIÓN DEL PROCESO
 
