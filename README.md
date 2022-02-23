@@ -36,12 +36,9 @@
 2. Dentro de la llamada (invoke) a “logGreeting”, en lugar de especificar una variable que contiene una función, creamos la función per se y la pasamos como parámetro.
 3. Podemos construir la interpolación de strings como: En un esquema “clásico” , la interpolación de strings en javascripts sucede de la siguiente forma:
 
-let logGreeting1 = (miNombre, miColor) => {
-console.log(
-"Hola " + miNombre + " buenos dias! Tu color favorito es el " + miColor
-);
-};
-logGreeting1("Carlos", "azul");
+> let logGreeting1 = (miNombre, miColor) => {
+> console.log("Hola " + miNombre + " buenos dias! Tu color favorito es el " + miColor);};
+> logGreeting1("Carlos", "azul");
 
 4. Modifica
 
